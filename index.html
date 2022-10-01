@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <style href="styles.css"></style>
+    </head>
+
+    <body>
+        <div id="mainContainer">
+            <div id="inputDiv">
+                <label for="inputText" id="labelText">Insert text</label>
+                <input type="text" id="inputText" />
+                <label for="inputNWorkers">Insert Workers Quantity</label>
+                <input type="number" id="inputNWorkers" />
+                <button onclick="createHash()" id="btn">Text</button>
+            </div>
+
+            <div id="resultsDiv">
+                <label>CurrentWord</label>
+                <label id="labelCurrentValue"></label>
+                <br>
+                <label id="resultInput"></label>
+            </div>
+        </div>
+        
+    </body>
+</html>
